@@ -1,0 +1,30 @@
+// GET all Objects
+GET http://localhost:3000/items
+
+###
+// GET single object
+Get http://localhost:3000/items/1
+
+###
+// POST new object
+POST http://localhost:3000/items 
+Content-Type: application/json
+
+{
+    "title": "It's time to sleep."
+}
+
+###
+// UPDATE an object
+PUT http://localhost:3000/items/1 
+Content-Type: application/json
+
+{
+    "title": "Create NEW project",
+    "order": 1,
+    "completed": false
+}
+
+###
+// DELETE an object
+DELETE http://localhost:3000/items/2
