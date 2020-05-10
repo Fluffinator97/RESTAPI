@@ -19,3 +19,6 @@ Jag gjorde bara G kraven.
 * kör npm i för att installera dependencies. 
 * Starta en server med npm start.
 * Använd .rest filen för att testa så att allt fungerar
+
+***
+GITHUB länk: https://github.com/Fluffinator97/RESTAPI
